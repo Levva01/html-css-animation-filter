@@ -156,3 +156,18 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
+/* ESERCIZIO 11 */
+
+@keyframes spin-ex11{
+    0%{transform: rotate(0deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(0deg);}
+
+}
+
+.ex-11-icon:hover{
+    animation-name: spin-ex11;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
