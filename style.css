@@ -125,3 +125,11 @@
     filter: grayscale(100%);
     transition: 4s;
 }
+
+/* ESERCIZIO 8  */
+
+.ex-8-img:hover{
+    filter: grayscale(100%);
+    transition: 3s ease-in-out;
+    border-radius: 20px;
+}
