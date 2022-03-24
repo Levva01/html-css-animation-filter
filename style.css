@@ -142,3 +142,17 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+
+/* ESERCIZIO 10 */
+
+@keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+.ex-10-icon{
+    animation-name: spin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
