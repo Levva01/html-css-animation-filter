@@ -199,3 +199,37 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
+/* ESERCIZIO 13 */
+
+@keyframes move-top-13 {
+    0%{}
+    20%{left: 82%; top: -3%;}
+    40%{left: 80%; top: 100%}
+    60%{left: 0%; top: 100%;}
+    80%{left: -15%; top: 0;}
+    100%{left: 10%;}
+}
+
+@keyframes move-bottom-13 {
+    0%{}
+    20%{right: 90%; bottom: -3%; width: 40px;height: 20px;}
+    40%{right: 90%; bottom: 100%; width: 40px; height: 23px;}
+    60%{right: 0%; bottom: 100%; width: 60px; height: 20px;}
+    80%{right: -15%; bottom: 0; height: 40px;}
+    100%{right: 20%;}
+}
+
+.ex-13-top-white{
+    animation-name: move-top-13;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.ex-13-bottom-white{
+    animation-name: move-bottom-13;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
