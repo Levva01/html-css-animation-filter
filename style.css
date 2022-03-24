@@ -171,3 +171,31 @@
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
+
+/* ESERCIZIO 12 */
+
+@keyframes move-top {
+    0%{}
+    50%{left: 60%;}
+    100%{left: 10%;}
+}
+
+@keyframes move-bottom {
+    0%{}
+    50%{right: 60%;}
+    100%{right: 20%;}
+}
+
+.ex-12-top-white{
+    animation-name: move-top;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.ex-12-bottom-white{
+    animation-name: move-bottom;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
