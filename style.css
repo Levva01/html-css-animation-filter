@@ -92,3 +92,9 @@
 }
 
 
+/* ESERCIZIO 4 */
+
+.ex-4-square:hover{
+    background-color: transparent;
+    transition: 4s ease-in-out;
+}
