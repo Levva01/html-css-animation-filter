@@ -75,3 +75,10 @@
     transition: 4s ease;
 }
 
+
+/* ESERCIZIO 2 */
+
+.ex-2-square:active{
+    width: 100%;
+    transition: 4s ease;
+}
