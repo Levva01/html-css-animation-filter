@@ -126,10 +126,19 @@
     transition: 4s;
 }
 
-/* ESERCIZIO 8  */
+/* ESERCIZIO 8 */
 
 .ex-8-img:hover{
     filter: grayscale(100%);
     transition: 3s ease-in-out;
     border-radius: 20px;
+}
+
+/* ESERCIZIO 9 */
+
+.ex-9-img:hover{
+    filter: grayscale(100%);
+    transition: 4s ease;
+    border-radius: 20px;
+    transform: scale(1.5);
 }
